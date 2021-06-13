@@ -21,9 +21,9 @@ public class Population {
         System.out.println("The estimated one year population increase is " + year1);
 
         year2 = year1 + (year1*worldPopulationGrowthRate);
-        System.out.println(year2);
+        System.out.println("The estimated world population for yer 2 is " + year2);
 
-        //To get the estimated world population
+        //To get the estimated world population of the 3rd, and 4th year follow the pattern
     }
 }
 
