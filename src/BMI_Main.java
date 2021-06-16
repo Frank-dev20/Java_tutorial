@@ -1,3 +1,5 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
 public class BMI_Main {
     public static void main(String[] args) {
         BMI health1 = new BMI("Joy", 215,70);
@@ -6,5 +8,9 @@ public class BMI_Main {
                 + " "+"BMI Status is "+" "+ health1.bmiStatus());
 
         System.out.println(health2.getName()+ " "+ health2.getBMI() + " " + health2.bmiStatus());
+        System.out.println();
+
+        String s = "a+b$#c".replaceAll("[$+#]","NNN");
+        System.out.println(s);
     }
 }
