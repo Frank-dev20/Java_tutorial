@@ -19,7 +19,7 @@ class FlightTest {
 
     @Test
     void flightTime(){
-        int[] array={23,45,40,27,67,27,78,50,78,50,60};
-        assertTrue(flight.movieAndFlightTime(100,array));
+        int[] array={27,45,40,27,67,23,78,50,78,50,60};
+        assertTrue(flight.movieAndFlightTime(90,array));
     }
 }

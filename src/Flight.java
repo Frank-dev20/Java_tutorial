@@ -1,6 +1,6 @@
 public class Flight {
 
-
+//Paasenger can choose between movies with duration equals flight time
 
     public static boolean movieAndFlightTime(int flight_duration, int []movie_duration) {
         int numberOfMovies = 0;
@@ -16,7 +16,7 @@ public class Flight {
             }
         }
         System.out.println(numberOfMovies);
-        return isTrue;
+        return true;
 
     }
 
